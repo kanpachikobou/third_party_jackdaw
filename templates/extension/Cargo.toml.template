@@ -1,0 +1,13 @@
+[package]
+name = "{{project-name}}"
+version = "0.1.0"
+edition = "2024"
+authors = ["{{authors}}"]
+
+# An editor extension is a normal Bevy library that also uses the
+# jackdaw_api surface. jackdaw builds it in .jackdaw/ against the
+# editor's SDK; `cargo check` works standalone.
+
+[dependencies]
+bevy = "0.19"
+jackdaw_api = "0.5"

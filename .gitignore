@@ -1,0 +1,10 @@
+# Rust builds
+/target
+# mdBook build output
+/book/book
+# Large media files
+*.mp4
+# jsn
+.jsn/project.jsn
+# web explorer app
+web/explorer/node_modules
